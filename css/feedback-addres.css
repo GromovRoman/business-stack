@@ -1,0 +1,12 @@
+.feedback-addres {
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 300;
+    font-style: normal;
+    color: #fff;
+    position: relative;
+    z-index: 11;
+    padding-left: 20px;
+    padding-right: 25px;
+    margin-top: -10px;
+}

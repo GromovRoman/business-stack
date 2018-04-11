@@ -1,0 +1,22 @@
+.feedback-title {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+    padding: 0px 28px 13px 20px;
+    margin-top: 62px;
+    z-index: 1;
+}
+
+.feedback-title_envelope::after{
+    content: '';
+    position: absolute;
+    top: -35px;
+    left: 15px;
+    height: 94px;
+    width: 110px;
+    background: url(/image/contact/envelope.png) no-repeat;
+    z-index: 1;
+}

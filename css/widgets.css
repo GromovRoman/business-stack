@@ -1,0 +1,28 @@
+.widgets {
+    padding-top: 24px;
+    padding-bottom: 23px;
+    border-bottom: 1px solid #116c58;
+    box-shadow: 0 1px 0 0 #50af9a;
+    display: flex;
+    justify-content: space-between;
+}
+.widgets__text{
+    flex: 0 1 167px;
+}
+.widgets__links {
+    flex: 0 1 133px;
+}
+.widgets__twitter {
+    flex: 0 1 284px;
+}
+.widgets__form {
+    flex: 0 1 252px;
+}
+.widgets h5 {
+    margin: 0;
+    padding: 0;
+    padding-bottom: 20px;
+    font-size: 14px;
+    font-weight: 900;
+    color: #fff;
+}

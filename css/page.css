@@ -1,0 +1,28 @@
+html {
+    height: 100%;
+}
+.page {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    font-size:12px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+.page__head-line {
+    background: url(../image/home/header-top-dot.png);
+    height: 6px;
+}
+.page__line {
+    flex-grow: 1;
+    position: relative;
+}
+.page__footer {
+    background-color: #1f987d;
+    flex-shrink: 0;
+}
+.page__footer_top-shadow {
+    border-top: 2px solid #4d7b87;
+    box-shadow: 2px 2px 8px 0px rgba(0, 0, 0, .5) inset;
+}

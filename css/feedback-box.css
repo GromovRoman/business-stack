@@ -1,0 +1,35 @@
+.feedback-box {
+    position: relative;
+}
+.feedback-box_envelope::after{
+    content: '';
+    position: absolute;
+    top: 23px;
+    left: 16px;
+    height: 94px;
+    width: 110px;
+    background: url(/image/contact/envelope.png) no-repeat;
+    z-index: 1;
+}
+.feedback-box__wraper{
+    height: 411px;
+    width: 300px;
+    background-color: #2a535e;
+    position: relative;
+    margin-top: -5px;
+    box-sizing: border-box;
+    border-top: 1px solid transparent;
+    z-index: 1;
+    
+}
+.feedback-box__wraper::after {
+    content: '';
+    position: absolute;
+    bottom: -46px;
+    left: -37.5px;
+    width: 0; height: 0;
+    border-left: 188px solid transparent;
+    border-right: 187px solid transparent;
+    border-bottom: 225px solid #2a535e;
+    border-radius: 100%;
+}

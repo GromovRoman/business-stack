@@ -1,0 +1,29 @@
+.html > h5 {
+    font-size: 15px;
+    font-weight: 900;
+    margin: 0;
+    padding: 0;
+    color: #2a535e;
+    margin-top: 35px;
+    margin-bottom: 10px;
+}
+blockquote, p {
+    margin: 0;
+    padding: 0;
+}
+blockquote{
+    box-sizing: border-box;
+    border: 1px solid #d2cbcb;
+    border-left: none;
+    box-shadow: -5px 0px 0px #2a535e;
+    margin-left: 5px;
+    margin-top: 9px;
+    margin-bottom: 35px;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: italic;
+    color: #2a535e;
+    line-height: 30px;
+    padding: 12px 30px 13px 12px;
+   
+}

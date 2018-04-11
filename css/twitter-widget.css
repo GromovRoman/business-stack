@@ -1,0 +1,33 @@
+.twitter-widget__emblem {
+    box-sizing: border-box;
+    height: 42px;
+    width: 41px;
+    border: 1px solid rgba(255, 255, 255, .41);
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    background: #167862 url(../image/home/twit-logo.png) no-repeat 50% 50%;
+    margin-top: 12px;
+    position: relative;
+    float: left;
+} 
+.twitter-widget__emblem::before,
+.twitter-widget__emblem::after {
+    content: '';
+    position: absolute;
+    border: 6px solid transparent;
+    border-left: 7.5px solid rgba(255, 255, 255, .41);
+    top: 13px;
+    right: -14.5px;
+}
+.twitter-widget__emblem::after {
+    border-left: 7px solid #167862;
+    top: 13px;
+    right: -13px;
+}
+.twitter-widget__box {
+    margin-left: 40px;
+    padding: 14px 15px;
+    border: 1px solid rgba(9, 69, 55, .56);
+    border-radius: 6px;
+    box-shadow: 4px 4px 15px 0 rgba(0, 0, 0, .35);
+}

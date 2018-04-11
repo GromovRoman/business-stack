@@ -1,0 +1,6 @@
+.center {
+    width: 960px;/*ТАК  ЧТО ЖЕ С ЭТИМ ДЕЛАТЬ*/
+    padding: 0;
+    margin: 0 auto;
+    display: flex;
+}

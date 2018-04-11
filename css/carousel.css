@@ -1,0 +1,26 @@
+.carousel__arrow {
+    border: none;
+    height: 55px;
+    opacity: 0.28;
+    position: absolute;
+    z-index: 10;
+    top: 40%;
+    cursor: pointer;
+    outline: none;        
+}
+
+.carousel__arrow:active {
+    opacity: 1;
+    background-color: transparent;
+}
+.carousel__arrow_left {
+    width: 42px;
+    background: url(../image/home/bigArrow-left.png) no-repeat 12px 13px #000000;
+    left: 0;
+}
+
+.carousel__arrow_right {
+    width: 37px;
+    background: url(../image/home/bigArrow-right.png) no-repeat 16px 13px #000000;
+    right: 0;
+}

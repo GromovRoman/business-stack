@@ -1,0 +1,27 @@
+.preview {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.preview__arrow {
+    width: 32px;
+    height: 32px;
+    outline: none;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.preview__arrow:active,
+.preview__arrow:active {
+    opacity: 0.28;
+}
+
+.preview__arrow_left {
+    background: url(../image/home/smallArrow-left.png) no-repeat;
+}
+
+.preview__arrow_right{
+    background: url(../image/home/smallArrow-right.png) no-repeat;
+}

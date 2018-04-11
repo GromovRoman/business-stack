@@ -1,0 +1,25 @@
+.menu {
+    font-weight: 400;
+    font-size: 14px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.menu__item {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    padding-top: 49px;
+    color: #4d7b87;
+    padding-left: 12px;
+    padding-right: 9px; 
+    position: relative;
+    bottom: 6px;
+    border-top: 6px solid transparent;
+}
+.menu__item:active {
+    opacity: 0.5;
+}
+.menu__item_active {
+    border-top-color: #4d7b87;
+}

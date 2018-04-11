@@ -1,0 +1,15 @@
+.slider{
+    background-color: #faf6f6;
+}
+.slider__carousel {
+    position: relative;
+}
+.slider__preview {
+    max-width: 835px;
+    margin: 0 auto;
+}
+.slider__bootom-line {
+    width: 100%;
+    min-height: 30px;
+    background-color: #d5d4d4;
+}

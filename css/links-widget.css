@@ -1,0 +1,22 @@
+.links-widget__item {
+    text-decoration: none;
+    line-height: 22px;
+    font-size: 12px;
+    font-weight: 400;
+    color: #fff;
+}
+.links-widget__item {
+    display: block;
+    margin-bottom: 15px;
+    padding-left: 15px;
+    position: relative;
+}
+.links-widget__item::after {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: url(../image/home/widget-lamp-on.png) no-repeat 50% 50%;
+    bottom: 0;
+    left: 0;
+}

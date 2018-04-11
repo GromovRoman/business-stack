@@ -1,0 +1,48 @@
+.form-widget {
+    display: flex;
+    flex-direction: column;
+    position: relative;    
+}
+.form-widget__name, .form-widget__email, .form-widget__message {
+    box-sizing: border-box;
+    border: 1px solid rgba(2, 36, 28, 0.56);
+    box-shadow: 4px 4px 15px 0 rgba(0, 0, 0, .24) inset;
+    margin-bottom: 6px;
+    font-size: 12px;
+    font-style: italic;
+    font-weight: 400;
+    color: #a29d9d;
+    padding: 8px 7px 12px;
+}
+.form-widget__message {
+    padding-bottom: 28px;
+    margin-bottom: 0;
+}
+.form-widget__button {
+    position: absolute;
+    display: block;
+    right: 1px;
+    bottom: 0px;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 900;
+    border: none;
+    border-top: 1px solid rgba(255, 255, 255, .85);
+    box-shadow: 0 0 0 1px rgba(18, 80, 27, .72);
+    background: linear-gradient(to bottom, #39b54a, #2c973b);
+    padding: 8px 24px 8px 22px;
+    cursor: pointer;
+    outline: none;
+}
+.form-widget_feedback {
+    position: relative;
+    z-index: 1;
+    padding: 0px 28px 0px 20px;
+}
+.form-widget__button_feedback-button {
+    height: 77px;
+    width: 77px;
+    border-radius: 50%;
+    right: 7px;
+    top: 112px;
+}

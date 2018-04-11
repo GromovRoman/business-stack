@@ -1,0 +1,7 @@
+.slides {
+    display: flex;
+    overflow: hidden;
+}
+
+.slides__slide {
+}

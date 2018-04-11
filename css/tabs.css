@@ -1,0 +1,6 @@
+.tabs {    
+    position: relative;
+}
+.tabs__tab{
+    display: inline-block;
+}

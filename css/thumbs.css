@@ -1,0 +1,42 @@
+.thumbs {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -34px;
+    margin-bottom: -4px;
+    z-index: 10;
+}
+
+.thumbs__button {
+    margin: 0;
+    padding: 20px 20px;
+    width: 185px;
+    height: 80px;
+    box-sizing: border-box;
+    border: 1px solid #a8a8a8;
+    box-shadow: 0 -6px 0 0px #2a535e;
+    background-color: #fff;
+    text-transform: capitalize;
+    text-align: center;
+    color: #2a535e;
+    font-size: 14px;
+    font-weight: 300;
+    cursor: pointer;
+    outline: none;
+}
+
+.thumbs__button:active {
+    background-color: #4d7b87;
+    color: #fff;
+}
+
+.thumbs__button_active { /*свойства для выбранного маленького слайда*/
+    height: 98px;
+    box-shadow: none;
+    border: 1px solid #817c7c;
+    margin-top: -9px;
+    margin-bottom: -10px;
+    padding: 30px 20px;
+    font-weight: 900;
+    box-shadow: 3px 3px 10px 0 rgba(0, 0, 0, 0.23);
+}

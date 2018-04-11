@@ -1,0 +1,13 @@
+.tweet-text__text {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 300px;
+    color: #2a535e;
+}
+.tweet-text__time {
+    font-size: 12px;
+    font-weight: 700;
+    color: #2a535e;
+}

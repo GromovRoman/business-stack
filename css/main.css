@@ -1,0 +1,16 @@
+.main {
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: 300;
+    color: #2a535e;
+}
+.main__bar-left {
+    flex-basis: 696px;
+    padding-top: 5px;
+    padding-bottom: 65px;
+}
+.main__bar-right {
+    margin-left: 35px;
+    flex-basis: 206px;
+}

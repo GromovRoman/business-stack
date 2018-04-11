@@ -1,0 +1,27 @@
+.menu-bar__item {
+    display: block;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-weight: 300;
+    color: #2a535e;
+    box-sizing: border-box;
+    border: 2px solid #e7e3e3;
+    padding: 9px;
+    padding-left: 12px;
+    margin-top: -2px;
+}
+.menu-bar__item_active {
+    position: relative;
+    background-color: #1f987d;
+    box-sizing: border-box;
+    border: none;
+    border-left: 8px solid #2a535e;
+    color: #fff;
+    margin-bottom: -2px;
+    z-index: 10px;
+}
+.menu-bar__item:active {
+    opacity: 0.5;
+}

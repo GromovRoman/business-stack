@@ -1,0 +1,36 @@
+.tab__button {
+    margin: 0;
+    padding: 7px 17px 7px 13px;
+    margin-top: 7px;
+    margin-left: -2px;
+    cursor: pointer;
+    border: 1px solid #d2cbcb;
+    background-color: #fff;
+    color: #2a535e;
+    font-size: 12px;
+    font-weight: 400;
+    outline: none;
+}
+.tab__button_active {
+    background-color: #1f987d;
+    border-color: #1f987d;
+    color: #fff;
+}
+.tab__text {
+    position: relative;
+    top: -1px;
+    left: 0px;
+    margin-left: -2px;
+    padding: 20px 16px 20px 19px;
+    box-sizing: border-box;
+    border: 1px solid #d2cbcb; 
+    font-size: 14px;
+    font-weight: 300;
+    color: #2a535e;
+}
+.tab__text_show {
+    display: block;
+}
+.tab__text_hide {
+    display: none;
+}
