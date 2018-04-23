@@ -10,7 +10,7 @@ function initMap() {
 	};
     
     // Создаем карту внутри элемента #map
-	var map = new google.maps.Map(document.getElementById("map__background"), mapOptions);
+	var map = new google.maps.Map(document.getElementById("main-content__map"), mapOptions);
     
     // Инициализация маркера
     var marker = new google.maps.Marker({

@@ -1,0 +1,7 @@
+.blog-item__box {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 32px;
+    padding-bottom: 33px;
+    border-bottom: 1px solid #2a535e;
+}

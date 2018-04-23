@@ -1,37 +1,29 @@
-var oTabsTitel;
-var oTabsContent;
+var tabsTitel = document.getElementsByClassName("tab__button");
+var tabsContent = document.getElementsByClassName("tab__text");
 
-window.addEventListener("load", function() {
-    oTabsContent = document.getElementsByClassName("tab__text");
-    oTabsTitel = document.getElementsByClassName("tab__button");
-    hideTabsContent(1);
-});
-
-function hideTabsContent(iValue) {
-    for (var i = iValue; i < oTabsContent.length; i++){
-        oTabsContent[i].classList.remove("tab__text_show");
-        oTabsContent[i].classList.add("tab__text_hide");
-        oTabsTitel[i].classList.remove("tab__button_active");
+function hideTabsContent(tabIndex) {
+    for (var i = tabIndex; i < tabsContent.length; i++){
+        tabsContent[i].classList.remove("tab__text_show");
+        tabsTitel[i].classList.remove("tab__button_active");
     }
 }
 
-document.getElementById("tab-button").onclick = function(oEvent) {
-    var oTarget = oEvent.target;
-    if (oTarget.className == "tab__button"){
-        for (var i = 0; i < oTabsTitel.length; i++){
-            if (oTarget == oTabsTitel[i]){
+document.getElementById("tab-button").addEventListener('click', function(event) {
+    var target = event.target;
+    if (target.classList.contains('tab__button')){
+        for (var i = 0; i < tabsTitel.length; i++){
+            if (target == tabsTitel[i]){
                 showTabsContent(i);
                 break;
             }
         }
     }
-}
+});
 
-function showTabsContent(iVaue) {
-    if (oTabsContent[iVaue].classList.contains("tab__text_hide")) {
+function showTabsContent(tabIndex) {
+    if (!(tabsContent[tabIndex].classList.contains("tab__text_show")) ){
         hideTabsContent(0);
-        oTabsTitel[iVaue].classList.add("tab__button_active");
-        oTabsContent[iVaue].classList.remove("tab__text_hide");
-        oTabsContent[iVaue].classList.add("tab__text_show");
+        tabsTitel[tabIndex].classList.add("tab__button_active");
+        tabsContent[tabIndex].classList.add("tab__text_show");
     }
 }

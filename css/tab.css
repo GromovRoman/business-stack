@@ -27,10 +27,8 @@
     font-size: 14px;
     font-weight: 300;
     color: #2a535e;
+    display: none;
 }
 .tab__text_show {
     display: block;
-}
-.tab__text_hide {
-    display: none;
 }
